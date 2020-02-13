@@ -1,6 +1,5 @@
 header{
-    background-color: blue;
+    background-color: rgba(183, 88, 207, 0.459);
     grid-column: 1/4;
     grid-row: 1/2;
-    
 }
