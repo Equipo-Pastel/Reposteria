@@ -1,0 +1,25 @@
+#footer{
+    background-color: #e2acf1;
+    grid-column: 4/4;
+    grid-row: 4/2;
+    padding: 10px;
+    color: white;
+}
+.formato-footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 20px;
+    display: inline-block;
+}
+.iconos-footer{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+.centrado{
+    text-align: center;
+}
+
+
