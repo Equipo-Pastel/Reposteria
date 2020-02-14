@@ -1,5 +1,22 @@
-header{
-    background-color: rgba(183, 88, 207, 0.459);
+font{
+    font-family: 'Pacifico', cursive;
+}
+#header{
+    background-color: #e2acf1;
     grid-column: 1/4;
     grid-row: 1/2;
+    padding: 10px;
+    color: white;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.texto{
+    margin: 0px;
+    text-align: center;
+}
+section > div{
+    display: inline-block;
+    width: 300px;
 }
