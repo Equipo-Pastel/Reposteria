@@ -31,6 +31,7 @@ section{
     grid-area: Section;
    /* background-color: #f6e7e6;*/
    background-color: #ffffff;
+   margin: 5px;
 }
 aside{
     grid-area: Aside;

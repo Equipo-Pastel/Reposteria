@@ -1,5 +1,18 @@
 .carta{
-    width: 1fr;
-    height: 100px;
-    background-color: brown;
+  width: 30%;
+  height: 400px;
+  background-color: white;
+  border-radius: 29px 29px 29px 29px;
+-moz-border-radius: 29px 29px 29px 29px;
+-webkit-border-radius: 29px 29px 29px 29px;
+
+-webkit-box-shadow: -4px 0px 52px -8px rgba(110,109,110,0.78);
+-moz-box-shadow: -4px 0px 52px -8px rgba(110,109,110,0.78);
+box-shadow: -4px 0px 52px -8px rgba(110,109,110,0.78);
+
+
 }
+
+/* section{
+    background-image: url(../imagenes/fondo.jpg);
+} */
