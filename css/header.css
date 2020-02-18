@@ -9,14 +9,18 @@ font{
     color: white;
 }
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    float:left;
 }
 .texto{
     margin: 0px;
     text-align: center;
 }
-section > div{
+header > div{
     display: inline-block;
     width: 300px;
+}
+#header .titulo{
+    text-align: center;
+    margin-top: 26px;
 }

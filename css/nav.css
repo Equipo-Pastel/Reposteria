@@ -1,0 +1,6 @@
+ul > li{
+    text-align: center;
+    line-height: 30px;
+    list-style-type: none;
+    color: white;
+}

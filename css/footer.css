@@ -6,12 +6,10 @@
     color: white;
 }
 .formato-footer{
-    background-color: black;
+    display: inline-block;
     color: white;
-    text-align: center;
     border-collapse: collapse;
     padding: 20px;
-    display: inline-block;
 }
 .iconos-footer{
     width: 50px;
@@ -21,5 +19,3 @@
 .centrado{
     text-align: center;
 }
-
-
