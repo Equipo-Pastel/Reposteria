@@ -1,0 +1,7 @@
+aside {
+  grid-area: Aside;
+  background-color: #9399ff;
+  border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+}

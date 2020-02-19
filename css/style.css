@@ -1,66 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
 
-.modo-grid{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows:
-        minmax(150, auto) minmax(200px, auto)
-        minmax(400px, auto) minmax(150, auto);
-    
-    grid-template-areas: 
+.modo-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows:
+    minmax(150, auto) minmax(200px, auto)
+    minmax(400px, auto) minmax(150, auto);
+
+  grid-template-areas:
     "Header     Header  Header"
     "Nav        Section Aside"
     "Nav       Section Aside"
     "Footer     Footer  Footer";
-    
-    margin: 0 auto;
-    width: 100%;
 
-}
-header{
-    grid-area: Header;
-    /*background-color: #f6e5f5;*/
-    background-color: #f6e5f5;
-}
-nav{
-    grid-area: Nav;
-    /*background-color: #fbf4f9;*/
-    background-color: #ffd5e5 ;
-}
-section{
-    grid-area: Section;
-   /* background-color: #f6e7e6;*/
-   background-color: #ffffff;
-   margin: 5px;
-}
-aside{
-    grid-area: Aside;
-    /*background-color: #fbf4f9;*/
-    background-color: #ffd5e5;
-}
-footer{
-    grid-area: Footer;
-    /*background-color: #f6e5f5;*/
-    background-color: #e2acf1;
+  margin: 0 auto;
+  width: 100%;
+  row-gap: 20px;
 }
 
-h2{
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
+h2 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
 }
 
-h1{
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-}
-
-
-a{
-   text-decoration: none;
-   color: white;
-   transition: background-color 1s;
-}
-
-a:hover{
-background-color: #e2acf1;
+.fondo{
+    background-color: #F1F1F1;
 }
