@@ -35,3 +35,16 @@ section {
 .container{
   text-align: center;
 }
+div{
+  text-align: justify;
+}
+.imagen-ubi{
+  height: 300px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+ol > li {
+  color: black;
+  line-height: 30px;
+}
