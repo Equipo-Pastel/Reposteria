@@ -7,6 +7,7 @@ footer {
   display: inline;
   color: white;
   border-collapse: collapse;
+  
 }
 .iconos-footer {
   width: 50px;
@@ -25,4 +26,9 @@ footer {
 
 .centrado {
   text-align: center;
+}
+.modo-flex-footer{
+  width: 0px auto;
+  display: flex;
+  justify-content: center;
 }
