@@ -11,11 +11,13 @@
   <link rel="stylesheet" href="css/nav.css" />
   <link rel="stylesheet" href="css/section.css">
   <link rel="stylesheet" href="css/aside.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="icon" href="imagenes/Sweet Backery.png">
 </head>
 
 <body>
   <div class="modo-grid">
+    <!--INICIO DEL HEADER-->
     <header>
       <div class="logo">
         <img src="img/Sweet Backery.png" alt="Logo ChilVen" class="logo" />
@@ -24,7 +26,8 @@
         Sweet Bakery ChilVen
       </h1>
     </header>
-
+    <!--FIN DEL HEADER-->
+    <!--INICIO DEL NAV-->
     <nav>
       <h2>Noticias</h2>
       <ul>
@@ -33,42 +36,69 @@
         <li><a href="html/noticias/not-produc-especiales.html">Por que nuestros productos son especiales?</a></li>
       </ul>
     </nav>
-    <section>
-      <h2>Receta del mes!</h2>
-      <div class="container">
+    <!--FIN DEL NAV-->
+    <!--INICIO DEL SECTION--> 
+        <section>
+      <h2>Decoracion de Pasteles Increibles!</h2>
+      <div class="container"> 
         <div class="receta-del-mes">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/c8pgI8MA-qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
       <h2>Nuestras recetas mas populares!</h2>
       <div class="container">
-        <div class="carta"></div>
-        <div class="carta"></div>
+        <div class="carta">
+            <img src="img/receta 1.jpg" alt="fresas con chocolate" class="ima-dia-amor">
+            <h2>Volcan de Chocolate</h2>
+            <div class="btn-comprar">Comprar</div>
+        </div>
+        <div class="carta">
+          <img src="imagenes/croisant.jpg" alt="Fresas con yogurt" class="ima-dia-amor">
+            <h2>Pastel de fresas</h2>
+            <div class="btn-comprar">Comprar</div>
+        </div>
       </div>
       <div class="container">
-      <div class="carta"></div>
-      <div class="carta"></div>
+      <div class="carta">
+        <img src="img/yogurt (2).jpg" alt="Chocolate Fresas" class="ima-dia-amor">
+            <h2>Chocolate con Fresas</h2>
+            <div class="btn-comprar">Comprar</div>
+      </div>
+      <div class="carta">
+        <img src="img/dia-amor2.jpg" alt="Postres del amor" class="ima-dia-amor">
+            <h2>Postres del amor</h2>
+            <div class="btn-comprar">Comprar</div>
+      </div>
     </div>
     </section>
+    <!--FIN DEL SECTION-->
+    <!--INICIO DEL ASIDE-->
     <aside>
       <h2>Eventos</h2>
-      <ul>
-        <li>
-          <a href="html/eventos/even-dia-amor.html">Dia del amor junto a nosostros</a>
-        </li>
+      <ul>  
+        <li><a href="html/eventos/even-dia-amor.html">Dia del amor junto a nosostros</a></li>
         <li><a href="html/eventos/even-caridad.html">Evento de caridad</a></li>
         <li><a href="html/eventos/talle-paste.html">Taller de pasteleria</a></li>
       </ul>
+      <div><div class="fijar-icono-contacto"><img class="icono-contacto" src="imagenes/pastelera.png"></div>
+      
+      </div>
     </aside>
-    <footer>
+    <!--FIN DEL ASIDE-->
+    <!--INICIO DEL FOOTER--> 
+     <footer>
       <div class="formato-footer">
-        <h2>Siguenos en redes sociales!</h2>
-        <div><img src="img/facebook white.png" alt="" class="iconos-footer centrado"/>
+        <h1>Siguenos en redes sociales!</h1>
+        <div class="modo-flex-footer">
+          <img src="img/facebook white.png" alt="" class="iconos-footer centrado"/>
+          <a href="https://www.facebook.com/" target="_blank"></a>
           <img src="img/twitter.png" alt="" class="iconos-footer centrado"/>
+          <a href="https://www.twitter.com/" target="_blank"></a>
           <img src="img/instagram white.png" alt="" class="iconos-footer centrado"/></div>
+          <a href="https://www.instagram.com/" target="_blank"></a>
       </div>
     </footer>
-  </div>
+    <!--INICIO DEL FOOTER-->
+ </div>
 </body>
-
 </html>

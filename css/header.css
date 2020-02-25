@@ -1,14 +1,15 @@
-font {
+/* font {
   font-family: "Pacifico", cursive;
-}
+} */
 
 header {
   grid-area: Header;
-  background-color: #ffc7c7;
-  grid-column: 1/4;
+  background-color: #eca0ff;
+  grid-column: 1/4; 
   grid-row: 1/2;
   padding: 10px;
   color: white;
+
 }
 .logo {
   width: 100px;
