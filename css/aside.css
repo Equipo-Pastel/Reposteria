@@ -1,7 +1,16 @@
 aside {
   grid-area: Aside;
-  background-color: #9399ff;
+  background-color: #8ac6d1;
   border-radius: 30px 30px 30px 30px;
   -moz-border-radius: 30px 30px 30px 30px;
   -webkit-border-radius: 30px 30px 30px 30px;
 }
+
+
+.icono-contacto{
+  width: 100px;
+  padding: 20px;
+}
+
+
+
