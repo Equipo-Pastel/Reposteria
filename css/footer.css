@@ -19,16 +19,15 @@ footer {
   -webkit-border-radius: 20px 20px 20px 20px;
   transition: background-color 1s;
 }
-
 .iconos-footer:hover {
   background-color: pink;
 }
-
 .centrado {
   text-align: center;
 }
 .modo-flex-footer{
   width: 0px auto;
+  height: 0px auto;
   display: flex;
   justify-content: center;
 }
