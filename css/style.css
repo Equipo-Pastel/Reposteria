@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
 *{
   font-family: "Dancing Script", cursive;
+  
 }
 .modo-grid {
   display: grid;
@@ -8,7 +9,7 @@
   grid-template-rows:
     minmax(150, auto) minmax(200px, auto)
     minmax(400px, auto) minmax(150, auto);
-
+    
   grid-template-areas:
     "Header     Header  Header"
     "Nav        Section Aside"
@@ -35,4 +36,7 @@ h1 {
 
 .fondo{
     background-color: #F1F1F1;
+}
+.div1{
+  position: fixed;
 }
